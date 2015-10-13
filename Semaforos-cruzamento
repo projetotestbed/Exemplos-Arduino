@@ -1,6 +1,6 @@
 /*
     06.10.2015
-    elaborado por Andressa Kappaun e Renan Colman
+    elaborado por Andressa Kappaun, Arthur Almeida e Renan Colman
     o circuito pode ser visto em http://imgur.com/1OoaV1d
     Semaforos: controla os 2 semaforos de um cruzamento,
     cada um deles fica verde e amarelo enquanto o outro esta vermelho 
