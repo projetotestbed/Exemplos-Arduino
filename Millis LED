@@ -1,4 +1,4 @@
-
+// imagem: http://i.imgur.com/IWdfvUt.png
 //definindo sinonimos para facilitar o código.
 #define led1 13
 #define led2 12
