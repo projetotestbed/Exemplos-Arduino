@@ -1,5 +1,5 @@
 // imagem: http://i.imgur.com/ftrOSwK.png
-
+ 
 // Define sinonimos para facilitar o código.
 #define sensorLum A0
 #define pot A1
