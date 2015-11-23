@@ -15,7 +15,7 @@ print "Inicializando porta serial...\n"
 arduino = serial.serial_for_url(port_name,115200)
 arduino.setTimeout(20)
 
-time.sleep(2) # Esperando inicialização
+time.sleep(2) # Esperando inicializacao
 print "Pronto para entrada\n"
 
 while 1:
