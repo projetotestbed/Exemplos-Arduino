@@ -3,7 +3,7 @@ Aplicação que rodará no Arduino, em conjunto com a arduino_serial.py na máqu
 Esta aplicação apenas acende/apaga o LED do Arduino (pino 13) sempre que recebe da serial, e envia uma mensagem informando o que foi recebido.
 */
 
-int byte = 0;
+int letra = 0;
 int pino = 13;
 
 void setup() {
@@ -23,12 +23,12 @@ void loop() {
 	if (Serial.available() > 0) {
 
 		// ler byte da serial
-		byte = Serial.read();
+		letra = Serial.read();
 
 		// enviar mensagem com a letra lida
 		Serial.print("Leu a letra ");
 
-		if(byte != NULL) {
+		if(letra != NULL) {
 			Serial.println(byte);
 			muda();
 		}
